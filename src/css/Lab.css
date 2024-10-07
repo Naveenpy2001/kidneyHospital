@@ -1,0 +1,216 @@
+/* Container */
+.lab-container {
+
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* Form */
+  .lab-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+  }
+  
+  .lab-h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .lab-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .lab-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  .lab-input,
+  .lab-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .lab-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lab-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table */
+  .lab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    padding: 0 50px;
+  }
+  
+  .lab-th,
+  .lab-td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    
+  }
+  
+  .lab-th {
+    background-color: #0A2558;
+    color: white;
+  }
+  
+  .lab-td {
+    background-color: #ffffff;
+  }
+  
+  .lab-view-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .lab-view-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Medicine Details */
+  .lab-test-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  
+
+  /* Container */
+.phrmcy-container {
+
+    background-color: #f8f9fa;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* Form */
+  .phrmcy-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+  }
+  
+  .phrmcy-h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .phrmcy-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .phrmcy-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  .phrmcy-input,
+  .phrmcy-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .phrmcy-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .phrmcy-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table */
+  .phrmcy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .phrmcy-th,
+  .phrmcy-td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .phrmcy-th {
+    background-color: #0A2558;
+    color: white;
+  }
+  
+  .phrmcy-td {
+    background-color: #ffffff;
+  }
+  
+  .phrmcy-view-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .phrmcy-view-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Medicine Details */
+  .phrmcy-medicine-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+
+  .searchContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 20px;
+  }

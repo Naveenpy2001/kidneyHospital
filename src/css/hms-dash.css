@@ -1,0 +1,39 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .side-nav {
+    width: 200px;
+    background-color: #7d7d7d;
+    padding: 15px;
+  }
+  
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-nav li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .side-nav li.active {
+    background-color: #ddd;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .hospital-details-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .hospital-details-table th, .hospital-details-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
